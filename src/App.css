@@ -2,10 +2,24 @@ html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
-#issMap{
-  height: 180px;
+a, a:visited, a:hover, a:active{
+  color: #27536B;
+}
+
+.wrapper{
+  height: 85vh;
+}
+
+.header{
+  background-color: #27536B;
+  padding: .3em;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  letter-spacing: .15em;
 }
 
 .leaflet-container {
@@ -15,11 +29,9 @@ html{
 }
 
 .footerWrapper {
-  margin: 10vh auto 15px;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+  height: auto;
+  margin: 5vh auto;
+  width: 70%;
   color: rgba(0, 0, 0, .8);
   font-size: 13px;
-  text-align: center;
 }
