@@ -13,6 +13,7 @@ function App() {
   const [delay, setDelay] = useState(0);
 
   async function fetchData() {
+    ((delay === 0) ? setDelay(3000) : nada() )
     const api_url = 'https://api.wheretheiss.at/v1/satellites/25544'
 
     const response = await fetch(api_url);
@@ -21,23 +22,21 @@ function App() {
     setData(jsonData);
     setLat(jsonData.latitude);
     setLon(jsonData.longitude);
-
-    ((delay == 0) ? setDelay(3000) : nada() )
-    console.log(data, "inner");
   };
-  console.log(data, "outter")
 
   useInterval(() => {
-    //fetchData();
+    fetchData();
   }, delay);
 
   return (
     <>
-    <div>
-      <h1>Where's the ISS at??</h1>
+    <div className="wrapper">
+      <div className="header">
+        <h1>Onde está a iss??</h1>
+      </div>
+      <Body data={data}/>
+      <IssMap lat={lat} lon={lon}/>
     </div>
-    <Body data={data}/>
-    <IssMap lat={lat} lon={lon}/>
     <Footer/>
     </>
   );
