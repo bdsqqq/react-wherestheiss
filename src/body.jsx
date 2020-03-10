@@ -4,12 +4,12 @@ function Body(props) {
     const data = props.data;
 
     if (data === null) {
+      return(
+        <p><span role="img" aria-label="Emoji do globo terrestre">🌎</span>  carregando...</p>
+      );
+    } else{
         return(
-            <p>Loading...</p>
-        );
-      }else{
-        return(
-            <p>{data.latitude}</p>
+          <p><span role="img" aria-label="Emoji do globo terrestre">🌎</span> Latitude: {data.latitude} <span role="img" aria-label="Emoji do globo terrestre">🌏</span> longitude: {data.longitude}</p>
         );
       }
     
