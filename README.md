@@ -1,3 +1,6 @@
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
+[READ.ME em português](https://github.com/bdsqqq/react-wherestheiss/blob/master/README.pt-br.md)
 # Where's the iss??
 
 This project is a WebApp for tracking the location of the international space station in real time(actually it updates every 3 seconds to keep the server workload safe).
@@ -14,7 +17,7 @@ The map tiles used came from [© OpenStreetMap contributors](https://www.openstr
 
 
 
-## Contributing and forking
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
