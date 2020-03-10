@@ -9,7 +9,7 @@ function Body(props) {
       );
     } else{
         return(
-          <p><span role="img" aria-label="Emoji do globo terrestre">🌎</span> Latitude: {data.latitude} <span role="img" aria-label="Emoji do globo terrestre">🌏</span> longitude: {data.longitude}</p>
+          <p className="latLonWrapper"><span><span role="img" aria-label="Emoji do globo terrestre">🌎</span> Latitude: {data.latitude}</span> <span><span role="img" aria-label="Emoji do globo terrestre">🌏</span> longitude: {data.longitude}</span></p>
         );
       }
     

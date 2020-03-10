@@ -4,6 +4,7 @@ html{
   box-sizing: border-box;
   text-align: center;
   font-family: Helvetica, sans-serif;
+  background-color: #E5E5E5;
 }
 
 a, a:visited, a:hover, a:active{
@@ -11,6 +12,9 @@ a, a:visited, a:hover, a:active{
 }
 
 .wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   height: 85vh;
 }
 
@@ -22,13 +26,22 @@ a, a:visited, a:hover, a:active{
   letter-spacing: .15em;
 }
 
+.latLonWrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  line-height: 1.8em;
+}
+
 .leaflet-container {
+  z-index: 1;
   margin: 0 auto;
-  height: 400px;
+  height: 80%;
   width: 90%;
 }
 
 .footerWrapper {
+  position: relative;
   height: auto;
   margin: 5vh auto;
   width: 70%;
