@@ -14,7 +14,7 @@ function App() {
 
   async function fetchData() {
     ((delay === 0) ? setDelay(3000) : nada() )
-    const api_url = 'https://api.igorbedesqui.com/iss/getdata'
+    const api_url = 'https://bdsq-rest-api.herokuapp.com/iss/getdata'
 
     const response = await fetch(api_url);
     const jsonData = await response.json();
