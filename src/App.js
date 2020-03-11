@@ -14,7 +14,7 @@ function App() {
 
   async function fetchData() {
     ((delay === 0) ? setDelay(3000) : nada() )
-    const api_url = 'https://api.wheretheiss.at/v1/satellites/25544'
+    const api_url = 'https://api.igorbedesqui.com/iss/getdata'
 
     const response = await fetch(api_url);
     const jsonData = await response.json();
