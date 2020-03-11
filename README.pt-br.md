@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)[![Netlify Status](https://api.netlify.com/api/v1/badges/a20f8c04-8776-4db3-8275-c36d42e5c883/deploy-status)](https://app.netlify.com/sites/zealous-hoover-90020f/deploys)
 
 [READ.ME in english](https://github.com/bdsqqq/react-wherestheiss/blob/master/README.md)
 # Onde está a ISS??
